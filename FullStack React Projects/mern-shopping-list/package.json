@@ -1,0 +1,32 @@
+{
+  "name": "mern-shopping-list",
+  "version": "1.0.0",
+  "description": "Shopping list built with the MERN stck",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Lautaro Cabrera",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "axios": "^0.27.2",
+    "babel-loader": "^8.2.4",
+    "body-parser": "^1.20.0",
+    "concurrently": "^7.1.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "webpack-cli": "^4.9.2"
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>15- Handling Events</title>
+</head>
+<body>
+    <p>Click this document to activate the handler</p>
+    <button>click Me</button>
+    <p>No handler here.</p>
+    <button class="btn2">Act-once button</button>
+    <button class="btn3">Click me any way you want</button>
+
+    <button class="btnA">A</button>
+    <button class="btnB">B</button>
+    <button class="btnC">C</button>
+
+    <a href="https://developer.mozilla.org/">MDN</a>
+    <p class="p1">A paragraph with a <button class="btn4">button</button>.</p>
+    <p class="p2">Press Control-Space to continue</p>
+    <p>This page turns violet when you hold the V key.</p>
+
+    <div class="draw"></div>
+
+    <p class="p5">Drag the bar to change its width:</p>
+    <div  class="bar"  style="background: orange; width: 60px; height: 20px"></div>
+    <div id="progress"></div>
+    <style>
+    .draw{
+        height:  200px;
+        background: beige;
+    }
+    .dot {
+        height: 8px; width: 8px;
+        border-radius:4px;
+        background: blue;
+        position: absolute;
+    }
+
+    #progress {
+        border-bottom: 2px solid blue;
+        width: 0;
+        position: fixed;
+        top: 0; left: 0;
+        
+       
+    }
+   body{
+      
+       overflow: auto;
+       word-wrap:break-word;
+   }
+    </style>
+
+    <div id="progress"></div>
+<p class="p6">Name: <input type="text" data-help="Your full name"></p>
+<p class="p7">Age: <input type="text" data-help="Age in years"></p>
+<p id="help"></p>
+
+<textarea>Type something here...</textarea>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

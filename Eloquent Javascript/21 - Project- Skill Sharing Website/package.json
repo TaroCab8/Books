@@ -1,0 +1,17 @@
+{
+  "name": "skillsharing",
+  "version": "1.0.0",
+  "description": "client-server excercise",
+  "main": "router.js",
+  "dependencies": {
+    "ecstatic": "^4.1.4",
+    "http-server": "^14.1.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lautaro Cabrera",
+  "license": "ISC"
+}
